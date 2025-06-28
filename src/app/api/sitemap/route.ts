@@ -1,5 +1,5 @@
 // app/api/sitemap/route.ts
-const BASE_URL = "https://621f-2800-200-e660-d-8425-74ae-adda-78f0.ngrok-free.app";
+const BASE_URL = "https://my-site.com"; // Cambia esto a tu URL base
 
 export async function GET() {
   const urls = ["/", "/blog", "/contact"];
